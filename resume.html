@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  padding: 1px;
+}
+img {
+  border-radius: 50%;
+}
+h1,h2,h3,h4,h5,h6,p{
+          margin-top: 2px;
+          margin-bottom: 2px;
+          margin-left: 16px;
+        }
+</style>
+<link rel="stylesheet" href="resume.css">
+</head>
+<body>
+
+<div class="flex-container">
+
+    <div style="width: 24%; background-color: #F5F5DC">
+         <!-- updating resume details -->
+         <div style="margin-top: 80px;">
+
+          <div>
+            <select name="select" id="selectId" class="selectFields">
+              <option value="select option">select option</option>
+              <option value="Name">Name</option>
+              <option value="Education">Education</option>
+              <option value="Work Experience">Work Experience</option>
+              <option value="Skills">Skills</option>
+              <option value="Personal Projects">Personal Projects</option>
+              <option value="Languages">Languages</option>
+          </select>
+        </div>
+
+        <div id="inputFields">
+        </div>
+
+        <div>
+          <input type="submit" value="Submit" id="submitButton" class="button">  
+          <input type="submit" value="Reset" id="resetButton" class="button"> 
+          <input type="submit" value="Cancel" id="cancelButton" class="button">
+          <input type="submit" value="Add" id="addButton" class="button">
+        </div>
+      </div>
+    </div>
+
+
+  <div style="width: 76%; padding-right: 5px;">
+
+    <div class="flex-container">
+
+      <div style="width: 40%; padding-right: 5px;">
+        <div id="personalDetails"> 
+          <div id="personalDetails0">
+            <h2 style="color:rgb(96,188,170)" id="personName0">Praveen Chandel</h2>
+            <p style="font-size: 19px;" id="personAbout0">Android App Developer and ex-Co- Founder and developer of Food For You </p>
+            <p style="font-size: 12px;" id="PersonSubDescription0">On the way of learning new technologies.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="width: 30%; padding-right: 5px;">
+        <img src="profile.jpeg" style="width: 130px;height: 130px;">
+      </div>
+
+      <div style="width: 30%; padding-right: 5px;">
+        <div style="text-align: right" class="marginPersonalDetails">
+          <a style="margin: 5px;" href="mailto:praveenchandel87695@gmail.com" target="_blank" id="profileImage">praveenchandel87695@gmail.com</a>
+          <p id="contactNumber" style="margin: 5px;">8769564547</p>
+          <p id="address" style="margin: 5px;">baran, India</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="flex-container">
+
+      <div style="width: 50%; padding-right: 5px;">
+        <div id="education">
+          <h3 class="heading"> <u>EDUCATION</u></h3>
+          <div id="education0" class="divMargin">
+            <h3 id="educationDegree0">B. Tech</h3>
+                <p class="highSize">National Institute of Technology, Jamshedpur</p>
+                <p class="smallSize">07/2018-Present <span style="font-size: 12px;float: right;">7.78 CGPA</span> </p>
+                <p class="mediumSize" id="educationBranch0">- Computer Science and Engineering</p>
+          </div>
+          <div id="education1" class="divMargin">
+            <h3 id="educationDegree1">12th</h3>
+                <p class="highSize" id="educationCollege1">APEX, baran</p>
+                <p class="smallSize" id="educationDate1">05/2015-05/2017 <span style="font-size: 12px;float: right;">82.4%</span> </p>
+                <p class="mediumSize" id="educationBranch0"></p>
+          </div>
+          <div id="education2" class="divMargin">
+            <h3 id="educationDegree2">10th</h3>
+                <p class="highSize" id="educationCollege2">MSBVN, bakani, Jhalawar</p>
+                <p class="smallSize" id="educationDate2">06/2007-05/2015 <span style="font-size: 12px;float: right;">84.5%</span> </p>
+                <p class="mediumSize" id="educationBranch0"></p>
+          </div>
+        </div>
+        <div id="workExperience">
+          <h3 style="color:rgb(96,188,170); margin-top: 25px;"> <u>WORK EXPERIENCE</u></h3>
+          <div id="workExperience0" class="divMargin">
+            <h3 id="workRoleName0">Ex- Co-Founder And Developer</h3>
+                <p class="highSize" id="workCompanyName0">Food For You</p>
+                <p class="smallSize" id="workDate0">11/2020 - 06/2021</p>
+                <p class="workLocation" id="workPlace0">Jodhpur, Rajasthan</p>
+                <p class="smallSize" id="workDescription0">Achievements/Tasks :-</p>
+                <p style="font-size: 13px;">- knew how to work in challenging situations, and fast
+                    growing start-up workplace, knowledge of products
+                    workflow on ground level.</p>
+                <p style="font-size: 13px;">- I was co-founder and technical head of food for you. I
+                    develop the whole app alone, fixed bugs generated by many
+                    users, and complete work before the deadline. knew how to
+                    fulfill the requirements.</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.food.foodforyou" target="_blank" style="font-size: 12px;" >App's Link</a>
+          </div>
+          <div id="workExperience1" class="divMargin">
+            <h3 id="workRoleName1">Software Developer Engineer</h3>
+                <p class="highSize" id="workCompanyName1">YourFirstAd</p>
+                <p style="font-size: 12px;" id="workDate1">06/2021 - 07/2021</p>
+                <p class="workLocation" id="workPlace1">Remote, work from home</p>
+                <p class="smallSize" id="workDescription1">Achievements/Tasks :-</p>
+                <p style="font-size: 13px;">- Working in a team, developing reliable and useful products.
+                    learn how to work in a team and complete the task on time.</p>
+          </div>
+          <div id="workExperience2" class="divMargin">
+            <h3 id="workRoleName2">Mobile Application Developer</h3>
+                    <p class="highSize" id="workCompanyName2">OnePercent</p>
+                    <p class="smallSize" id="workDate2">09/2020 - 10/2020</p>
+                    <p class="workLocation" id="workPlace2">(work from home) Bengaluru, india</p>
+                    <p class="smallSize" id="workDescription2"></p>
+                    <a href="https://drive.google.com/file/d/1Yuzf8oOzITgPBNn63wYfLwVKkSfawYek/view?usp=sharing" target="_blank" style="font-size: 12px;" >Certificate Link</a>
+          </div>
+        </div> 
+      </div>
+
+      <div style="width: 50%; padding-left: 5px;">
+        <div id="skills" style="margin-left: 16px; margin-right: 16px;">
+          <h3 style="color:rgb(96,188,170);margin-top: 25px;"> <u>SKILLS</u></h3>
+                <div id="skill0" type="button" class="skills"> <p>Full Stack App Developer</p></div>
+                <div id="skill1" type="button" class="skills"><p>Problem solving</p></div>
+                <div id="skill2" type="button" class="skills"> <p>Data structure</p> </div>
+                <div id="skill3" type="button" class="skills"> <p>Algorithm</p> </div>
+                <div id="skill4" type="button" class="skills"> <p>Excel</p> </div>
+                <div id="skill5" type="button" class="skills"> <p>Android development</p> </div>
+                <div id="skill6" type="button" class="skills"><p>DBMS</p></div>
+                <div id="skill7" type="button" class="skills"><p>SQL</p></div>
+                <div id="skill8" type="button" class="skills"><p>OS</p></div>
+        </div>
+        <div id="personalProjects">
+          <h3 style="color:rgb(96,188,170); margin-top: 25px;" id="personalProjects"> <u>PERSONAL PROJECTS</u></h3>
+          <div id="personalProjects0" class="divMargin">
+            <p class="highSize" id="projectTitle0">Food For You - Online Food Ordering App (Available on play Store with 1000+ downloads)</p>
+                <p class="smallSize" id="projectAbout0">- Developed a ecommerce app backend using firebase with realtime Database, Firebase storage and authentication. XML and material
+                    design for frontend.</p>
+                <p style="font-size: 13px;">- User App: the app allows customers to order food from restaurants.
+                    It has features like Cart, Orders history, payment, review food and restaurants, cancel an order, available offers, allowing order from
+                    multiple restaurants, searching food sort by category, order by category, instant delivery at some palaces, user profile, login, register, etc.</p>
+                <p style="font-size: 13px;">- Admin App: generating excel sheet, Add restaurants, dishes, delivery addresses and manage them. Recycle products, restaurants and also delete them. Adding offers to a specific dish, restaurant or flat offer. Managing orders partially cancel, full cancel, refunding amount. last time of ordering.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.food.foodforyou" target="_blank" style="font-size: 12px;">App's Link</a>
+          </div>
+          <div id="personalProjects1" class="divMargin">
+            <p class="highSize" id="projectTitle1">App Block App</p>
+            <p class="smallSize" id="projectAbout1">- help users to increase their productive time that they waste in many unwanted distractive apps. By this app they can block unwanted apps up to 3 hours they can stop time whenever they want. It also has parental lock by that user not allow to uninstall
+                    this app if they want they can stop it.</p>
+          </div>
+          <div id="personalProjects2" class="divMargin">
+            <p class="highSize" id="projectTitle2">Chatting App</p>
+            <p class="smallSize" id="projectAbout2">- it show users a photo of an actor then user option to select one and
+                    show result at the end.</p>
+          </div>
+        </div>
+        <div id="languages">
+          <h3 style="color:rgb(96,188,170); margin-top: 25px;"> <u>LANGUAGES</u></h3>
+          <div id="languages0">
+            <p class="langName" id="lang0">JAVA</p>
+            <p class="langEx" id="langExperiance0">Full Professional Proficiency</p>
+          </div>
+          <div id="languages1">
+            <p style="font-size: 17px;text-align: end;" id="lang1">C</p>
+            <p style="font-size: 12px;color:rgb(96,188,170);text-align: end;" id="langExperiance1">Full Professional Proficiency</p>
+          </div>
+          <div id="language2">
+            <p class="langName" id="lang2">C++</p>
+            <p class="langEx" id="langExperiance2">Full Professional Proficiency</p>
+          </div>
+          <div id="languages3">
+            <p style="font-size: 17px;text-align: end;" id="lang3">XML</p>
+            <p style="font-size: 12px;color:rgb(96,188,170);text-align: end;" id="langExperiance3">Full Professional Proficiency</p>
+          </div>
+          <div id="language4">
+            <p class="langName" id="lang4">Python</p>
+            <p class="langEx" id="langExperiance4">Limited Working Proficiency</p>
+          </div>
+          <div id="languages5">
+            <p style="font-size: 17px;text-align: end;" id="lang5">Machine Learing</p>
+            <p style="font-size: 12px;color:rgb(96,188,170);text-align: end;" id="langExperiance5">Elementry Proficiency</p>
+          </div>
+        </div>
+        <div id="interests">
+          <h3 style="color:rgb(96,188,170); margin-top: 25px;"> <u>INTERESTS</u></h3>
+            <div type="button" class="skills" id="interest0">Badminton</div>
+            <div type="button" class="skills" id="interest1">Mobile App Development</div>
+        </div> 
+      </div>
+    </div>
+  </div>
+</div>
+<script src="resume.js"></script>
+</body>
+</html>
+
+
